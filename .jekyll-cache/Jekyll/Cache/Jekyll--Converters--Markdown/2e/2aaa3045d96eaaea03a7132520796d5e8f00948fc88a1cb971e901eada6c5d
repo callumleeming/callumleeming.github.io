@@ -1,63 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="/assets/css/atom-one-light.css">
-	
-	<title>Linux Password-less Authentication</title>
-	<link rel="stylesheet" type="text/css" href="/assets/css/002.css">
-	
-	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
-	<script src="/assets/js/highlight.pack.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-</head>
-
-<body>
-	<div class="wrapper">
-		<div class="default_title">
-			<img src="/assets/img/mycomputer.png" />
-			<h1>Callum Leeming</h1>
-		</div>
-		<ul class="topbar">
-	<a href="/me"><li><u>A</u>bout</li></a>
-</ul>
-
-		<div class="post_list">
-			
-			<ul>
-				
-				<li><a href="/20190830/linux-passwordless" title="Linux Password-less Authentication"><img src="/assets/img/file.ico"
-							title="Linux Password-less Authentication" />Linux Password-less Authentication</a></li>
-				
-			</ul>
-			
-		</div>
-		<div class="post_total">
-			<div class="left">1 object(s)</div>
-			<div class="right">&nbsp;</div>
-		</div>
-	</div>
-	
-	<div class="content">
-		<div class="post_title">
-			<img src="/assets/img/file.png" />
-			<h1>Linux Password-less Authentication</h1>
-			<a href="/">
-				<div class="btn"><span class="fa fa-times"></span></div>
-			</a>
-			<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
-			<div class="btn"><span class="fa fa-window-minimize"></span></div>
-		</div>
-		<ul class="topbar">
-			<li>August 30, 2019</li>
-		</ul>
-		<div class="post_content">
-			<h1 id="what-is-password-less-authentication">What is Password-less Authentication?</h1>
+I"é<h1 id="what-is-password-less-authentication">What is Password-less Authentication?</h1>
 <p>SSH Password-less Authentication is basically having the ability to log-on to another remote server without having to enter a password. This is particularly useful when you want to automate tasks/jobs such as zipping-up a directory by using a script, or even for remote command execution.</p>
 
 <p>You should consider using SSH password-less authentication when you are dealing with a number of remote servers. By adding public keys to a file, you can eliminate the whole process of exposing a password elsewhere.</p>
@@ -100,12 +41,4 @@ You should now be able to ssh onto the box from the client machine, without the 
 e.g. <code>ssh username@hostname dir</code></p>
 
 <h3 id="post-by-callum-leeming-junior-software-developer">Post by: <strong>Callum Leeming, Junior Software Developer</strong></h3>
-
-		</div>
-	</div>
-	
-	<script src="/assets/js/001.js"></script>
-	<script src="/assets/js/002.js"></script>
-</body>
-
-</html>
+:ET

@@ -46,6 +46,5 @@ If the SSH keys need to be regenerated, then you will need to follow these steps
 6) You will need the public key to be added to the box you want to connect to 
 You should now be able to ssh onto the box from the client machine, without the password. 
 e.g. `ssh username@hostname dir`
----
+
 ### Post by: **Callum Leeming, Junior Software Developer**
----
