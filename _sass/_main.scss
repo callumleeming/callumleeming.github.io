@@ -107,11 +107,15 @@ ul.topbar {
 		li {
 			display: inline-block;
 			margin: 10px;
-			max-width: 16ch;
+			max-width: 20ch;
 			overflow: hidden;
 			text-overflow: ellipsis;
 			white-space: nowrap;
 			text-align: center;
+
+			@media only screen and (min-width: 600px) {
+				max-width: 30ch;
+			}
 
 			img {
 				display: block;
